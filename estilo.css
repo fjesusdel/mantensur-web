@@ -88,6 +88,7 @@ p{margin:0 0 1em}
 .servicio span{font-size:.85rem;font-weight:600;color:var(--oro);letter-spacing:.04em}
 .dos{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center}
 .dos img{border-radius:var(--radio);width:100%;aspect-ratio:5/4;object-fit:cover}
+.dos img.entera{aspect-ratio:auto;object-fit:contain}
 .cita{font-family:var(--serif);font-size:1.7rem;line-height:1.3;color:var(--marino);border-left:3px solid var(--oro);padding:4px 0 4px 24px;margin:28px 0}
 .ventajas{display:grid;grid-template-columns:repeat(3,1fr);gap:40px;margin-top:8px}
 .ventaja{border-top:2px solid var(--oro);padding-top:20px}
